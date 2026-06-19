@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Gallery — Swiha Tours & Travel</title>
-  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../static/style.css" />
   <style>
     .gallery-filters { display: flex; gap: 10px; justify-content: center; margin-bottom: 40px; flex-wrap: wrap; }
     .gallery-grid { columns: 3; column-gap: 16px; }
@@ -22,7 +22,7 @@
 
 <nav class="navbar">
   <div class="navbar-inner">
-    <a href="../index.html" class="logo"><div class="logo-icon">🦍</div><div><div class="logo-text">Swiha Tours</div><div class="logo-sub">& Travel</div></div></a>
+    <a href="../index.html" class="logo"><div class="logo-icon"><img src = "static/images/logo.jpg"></div><div><div class="logo-text">Swiha Tours</div><div class="logo-sub">& Travel</div></div></a>
     <ul class="nav-links">
       <li><a href="../index.html">Home</a></li><li><a href="about.html">About Us</a></li>
       <li><a href="packages.html">Tour Packages</a></li><li><a href="destinations.html">Destinations</a></li>
@@ -112,7 +112,7 @@
 
 <a href="https://wa.me/256700000000" class="whatsapp-float">💬</a>
 <button class="back-to-top">↑</button>
-<script src="../js/main.js"></script>
+<script src="../static/main.js"></script>
 <script>
   document.querySelectorAll('.filter-chip').forEach(chip => {
     chip.addEventListener('click', () => { document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active')); chip.classList.add('active'); });

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tour Packages — Swiha Tours & Travel</title>
   <meta name="description" content="Browse Swiha Tours' full catalogue of Uganda & East Africa safari packages — gorilla trekking, wildlife safaris, bird watching, cultural tours and more.">
-  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../static/style.css" />
   <style>
     .filters-bar { background: var(--ivory); padding: 32px 0; border-bottom: 1px solid var(--cream); position: sticky; top: 72px; z-index: 100; }
     .filters-inner { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
@@ -65,7 +65,7 @@
 
 <nav class="navbar">
   <div class="navbar-inner">
-    <a href="../index.html" class="logo"><div class="logo-icon">🦍</div><div><div class="logo-text">Swiha Tours</div><div class="logo-sub">& Travel</div></div></a>
+    <a href="../index.html" class="logo"><div class="logo-icon"><img src = "static/images/logo.jpg"></div><div><div class="logo-text">Swiha Tours</div><div class="logo-sub">& Travel</div></div></a>
     <ul class="nav-links">
       <li><a href="../index.html">Home</a></li><li><a href="about.html">About Us</a></li>
       <li><a href="packages.html" class="active">Tour Packages</a></li><li><a href="destinations.html">Destinations</a></li>
@@ -376,7 +376,7 @@
 
 <a href="https://wa.me/256700000000" class="whatsapp-float">💬</a>
 <button class="back-to-top">↑</button>
-<script src="../js/main.js"></script>
+<script src="../static/main.js"></script>
 <script>
   // Filter chips — frontend only (backend will filter real data)
   document.querySelectorAll('.filter-chip').forEach(chip => {

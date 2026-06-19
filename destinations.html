@@ -4,7 +4,7 @@
   <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Destinations — Swiha Tours & Travel</title>
   <meta name="description" content="Explore Uganda and East Africa's most breathtaking destinations — from Bwindi's gorilla forests to Murchison Falls, Jinja and beyond.">
-  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../static/style.css" />
   <style>
     .dest-detail-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; margin-top: 24px; }
     .dest-full-card { background: var(--white); border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-sm); transition: var(--transition); }
@@ -35,7 +35,7 @@
 
 <nav class="navbar">
   <div class="navbar-inner">
-    <a href="../index.html" class="logo"><div class="logo-icon">🦍</div><div><div class="logo-text">Swiha Tours</div><div class="logo-sub">& Travel</div></div></a>
+    <a href="../index.html" class="logo"><div class="logo-icon"><img src = "static/images/logo.jpg"></div><div><div class="logo-text">Swiha Tours</div><div class="logo-sub">& Travel</div></div></a>
     <ul class="nav-links">
       <li><a href="../index.html">Home</a></li><li><a href="about.html">About Us</a></li>
       <li><a href="packages.html">Tour Packages</a></li><li><a href="destinations.html" class="active">Destinations</a></li>
@@ -267,7 +267,7 @@
 
 <a href="https://wa.me/256700000000" class="whatsapp-float">💬</a>
 <button class="back-to-top">↑</button>
-<script src="../js/main.js"></script>
+<script src="../static/main.js"></script>
 <script>
   document.querySelectorAll('.region-tab').forEach(tab => {
     tab.addEventListener('click', () => {
